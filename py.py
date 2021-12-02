@@ -1,15 +1,5 @@
 
 
-def sorteddi(lst1,lst2):
-    if len(lst1)<5 |len(lst2):
-        diff=[]
-        for el1 in lst1:
-            if el1 not in lst2 and el1 not in diff:
-                diff.append(el1)
-        for el2 in lst2:
-            if el2 not in lst1 and el2 not in diff:
-                diff.append(el2)
-        return diff
 
     else:
         if len(lst1)>len(lst2):
